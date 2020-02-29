@@ -1,0 +1,48 @@
+.link {
+    //Diseño de Letra
+    color: #e10049;
+    font-size: 20px;
+    margin-right: 1.5rem;
+    background-image: none;
+}
+
+.title{
+    //Diseño de imagen
+    display: flex;
+    width: 150px;
+    border-radius: 90px;
+   
+}
+
+.nav-list{
+    //Lista
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav-bar{
+    //Barra de navegacion
+    padding-top:  75px;
+}
+.link:hover{
+    color:white;
+}
+.active-nav-item{
+    color: white;
+}
+
+.header{
+    // Diseño Cabezera
+    background-color: #360046;
+    display: flex;
+    justify-content: space-between; 
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius:3px;
+}
+
+
+
+
+
+

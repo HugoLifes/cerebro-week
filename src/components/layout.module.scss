@@ -1,0 +1,15 @@
+.container {
+    margin: 0 auto;
+    max-width: 2000px;
+    background-color: #360046;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-left: 80px;
+    padding-right: 80px ;
+}
+
+.content{
+    flex-grow: 1;
+}
+
