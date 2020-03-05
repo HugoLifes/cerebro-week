@@ -1,6 +1,7 @@
 import React from 'react'
 import Style from './footer.module.scss'
 import { graphql, useStaticQuery } from 'gatsby'
+import {Segment} from 'semantic-ui-react'
 const Footer = () =>{
     const data = useStaticQuery(graphql`
     query {
@@ -12,9 +13,9 @@ const Footer = () =>{
     }
     `)
     return(
-        <footer className={Style.title}>
+        <Segment className={Style.title}>
             <p> Created by {data.site.siteMetadata.author} © 2020 </p>
-        </footer>
+        </Segment>
     )
 }
 
